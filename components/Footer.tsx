@@ -40,9 +40,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div>
           <h4 className="font-semibold text-sm uppercase tracking-widest mb-6">Support</h4>
           <ul className="space-y-4 text-sm text-stone-500">
-            <li><button onClick={() => onNavigate('about')} className="hover:text-stone-900 transition-colors text-left">Inquiries</button></li>
-            <li><button onClick={() => onNavigate('about')} className="hover:text-stone-900 transition-colors text-left">About Heritage</button></li>
-            <li><a href="https://wa.me/9664772471" className="hover:text-stone-900 transition-colors">Direct Support</a></li>
+            <li><button onClick={() => onNavigate('about')} className="hover:text-stone-900 transition-colors text-left">Direct Inquiries</button></li>
+            <li><button onClick={() => onNavigate('about')} className="hover:text-stone-900 transition-colors text-left">About Our Heritage</button></li>
+            <li><a href="https://wa.me/9664772471" target="_blank" rel="noopener noreferrer" className="hover:text-stone-900 transition-colors">Chat with Specialist</a></li>
           </ul>
         </div>
 
@@ -64,6 +64,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <p>© 2024 LuxeStone Marble & Co. Managed by Dhaval Rajput.</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <button onClick={() => onNavigate('about')} className="hover:text-stone-900 transition-colors">About Us</button>
+          <a href="mailto:rajputdhavaljs@gmail.com" className="hover:text-stone-900 transition-colors">Email Support</a>
         </div>
       </div>
     </footer>
